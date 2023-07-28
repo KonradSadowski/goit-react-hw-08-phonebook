@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 
-export const Tasks = () => {
+const Tasks = () => {
   return (
     <>
       <Helmet>
@@ -10,3 +10,4 @@ export const Tasks = () => {
     </>
   );
 };
+export default Tasks;

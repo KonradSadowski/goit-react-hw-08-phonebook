@@ -1,7 +1,7 @@
 import { LoginForm } from 'components/LoginForm/LoginForm';
 import { Helmet } from 'react-helmet';
 
-export const Login = () => (
+const Login = () => (
   <div>
     <Helmet>
       <title>Login</title>
@@ -9,3 +9,4 @@ export const Login = () => (
     <LoginForm />
   </div>
 );
+export default Login;

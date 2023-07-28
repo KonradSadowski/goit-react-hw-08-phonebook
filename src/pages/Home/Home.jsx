@@ -13,12 +13,13 @@ const styles = {
     textAlign: 'center',
   },
 };
-export const Home = () => {
+const Home = () => {
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>
-        Welcome in your phonebook! Please log in to your account.
+        Welcome! Please log in or sign up to get started.
       </h1>
     </div>
   );
 };
+export default Home;
