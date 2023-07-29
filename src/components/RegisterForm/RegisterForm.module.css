@@ -1,9 +1,29 @@
 .form {
-  width: 320px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 13px;
+  padding: 10px 20px;
+  background-color: rgb(56, 56, 56);
+  justify-content: center;
+  box-shadow: 3px 3px 10px -4px peru;
+  border-radius: 5px;
+  max-width: 30%;
+  margin: 0 auto;
 }
 
 .label {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+}
+
+.button {
+  background-color: peru;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 11px;
+  padding: 8px;
+  margin: 0 auto;
 }

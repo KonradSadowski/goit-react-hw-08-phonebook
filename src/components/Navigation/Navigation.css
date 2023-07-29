@@ -3,9 +3,9 @@
   text-decoration: none;
   padding: 12px;
   font-weight: 700;
-  color: blueviolet;
+  color: white;
 }
 
 .link.active {
-  color: brown;
+  color: peru;
 }

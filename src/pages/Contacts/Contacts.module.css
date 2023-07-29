@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.contactsDisplay {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 12px;
+  padding: 10px 20px;
+  background-color: rgb(56, 56, 56);
+  justify-content: center;
+  box-shadow: 3px 3px 10px -4px peru;
+  border-radius: 5px;
+}

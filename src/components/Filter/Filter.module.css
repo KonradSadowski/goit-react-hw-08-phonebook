@@ -1,0 +1,12 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+}
+.filterTitle {
+  font-size: 13px;
+  margin: 0px;
+}
+.input {
+  padding: 3px 2px;
+  margin: 5px 0px;
+}

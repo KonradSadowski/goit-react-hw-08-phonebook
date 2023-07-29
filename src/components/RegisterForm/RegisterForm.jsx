@@ -22,17 +22,19 @@ export const RegisterForm = () => {
     <form className={css.form} onSubmit={handleSubmit}>
       <label className={css.label}>
         Username
-        <input type="text" name="name" />
+        <input type="text" name="name" placeholder="User" />
       </label>
       <label className={css.label}>
         Email
-        <input type="email" name="email" />
+        <input type="email" name="email" placeholder="user@gmail.com" />
       </label>
       <label className={css.label}>
         Password
-        <input type="password" name="password" />
+        <input type="password" name="password" placeholder="*********" />
       </label>
-      <button type="submit">Log in</button>
+      <button type="submit" className={css.button}>
+        Register
+      </button>
     </form>
   );
 };

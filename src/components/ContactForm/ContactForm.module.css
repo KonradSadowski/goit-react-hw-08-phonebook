@@ -1,6 +1,7 @@
 .form {
   display: flex;
   flex-direction: column;
+  height: 150px;
   color: white;
   font-size: 13px;
   padding: 10px 20px;
@@ -8,22 +9,24 @@
   justify-content: center;
   box-shadow: 3px 3px 10px -4px peru;
   border-radius: 5px;
-  max-width: 30%;
-  margin: 0 auto;
 }
 
-.label {
+.formItem {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
 }
 
-.button {
+.formInput {
+  padding: 3px 2px;
+  margin-bottom: 10px;
+}
+
+.formBtn {
   background-color: peru;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 11px;
-  padding: 8px;
+  width: 45%;
   margin: 0 auto;
 }

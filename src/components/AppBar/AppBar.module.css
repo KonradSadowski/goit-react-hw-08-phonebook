@@ -3,5 +3,6 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid peru;
+  border-radius: 12px;
 }
